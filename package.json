@@ -1,0 +1,24 @@
+{
+  "name": "black-metal-venom-theme",
+  "displayName": "Black Metal (Venom)",
+  "description": "A dark, sinister theme inspired by the black metal nvim themes.",
+  "version": "1.0.0",
+  "publisher": "0x6D6163",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bradymacfarland/black-metal-venom-theme"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
+  "keywords": ["theme", "dark", "black metal", "embedded", "c", "cpp", "python"],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [{
+      "label": "Black Metal (Venom)",
+      "uiTheme": "vs-dark",
+      "path": "./black-metal-venom.json"
+    }]
+  }
+}
